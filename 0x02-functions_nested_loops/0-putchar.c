@@ -1,21 +1,20 @@
 #include "main.h"
 
 /**
- * main - Print holberton word
- *
- * Return: Always 0.
+ * main - main function
+ * _putchar: print the alphabets putchar
+ * Return: always 0
  */
 
 int main(void)
 {
-	char message[] = "main.h";
-	int count = 0;
-
-	while (message[count] != '\0')
-	{
-		_putchar(message[count]);
-		count++;
-	}
-	_putchar('\n');
+	_putchar('_');
+	_putchar('p');
+	_putchar('u');
+	_putchar('t');
+	_putchar('c');
+	_putchar('h');
+	_putchar('a');
+	_putchar('r');
 	return (0);
 }
